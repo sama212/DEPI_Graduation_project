@@ -1,0 +1,130 @@
+{
+  "config": {
+    "n_estimators": 100,
+    "max_depth": 5,
+    "min_samples_split": 5,
+    "max_features": "sqrt",
+    "name": "RF-100-depth5"
+  },
+  "featureNames": [
+    "age",
+    "trestbps",
+    "chol",
+    "fbs",
+    "thalch",
+    "exang",
+    "oldpeak",
+    "ca",
+    "sex_Female",
+    "sex_Male",
+    "cp_asymptomatic",
+    "cp_atypical angina",
+    "cp_non-anginal",
+    "cp_typical angina",
+    "restecg_lv hypertrophy",
+    "restecg_normal",
+    "restecg_st-t abnormality",
+    "slope_downsloping",
+    "slope_flat",
+    "slope_upsloping",
+    "thal_fixed defect",
+    "thal_normal",
+    "thal_reversable defect"
+  ],
+  "accuracy": 0.7967391304347826,
+  "featureImportance": [
+    {
+      "feature": "ca",
+      "importance": 0.18699162788179782
+    },
+    {
+      "feature": "oldpeak",
+      "importance": 0.11433734611070154
+    },
+    {
+      "feature": "chol",
+      "importance": 0.10699059367233904
+    },
+    {
+      "feature": "age",
+      "importance": 0.10485317262384664
+    },
+    {
+      "feature": "thalch",
+      "importance": 0.08492093552452006
+    },
+    {
+      "feature": "cp_asymptomatic",
+      "importance": 0.06718637320011786
+    },
+    {
+      "feature": "thal_normal",
+      "importance": 0.06447729360831335
+    },
+    {
+      "feature": "slope_downsloping",
+      "importance": 0.04863003283654459
+    },
+    {
+      "feature": "trestbps",
+      "importance": 0.038819046214488666
+    },
+    {
+      "feature": "thal_reversable defect",
+      "importance": 0.0321246841530786
+    },
+    {
+      "feature": "slope_upsloping",
+      "importance": 0.02839593953755822
+    },
+    {
+      "feature": "exang",
+      "importance": 0.02343205441943818
+    },
+    {
+      "feature": "cp_atypical angina",
+      "importance": 0.021920354891702146
+    },
+    {
+      "feature": "restecg_normal",
+      "importance": 0.012581598107583162
+    },
+    {
+      "feature": "sex_Female",
+      "importance": 0.011181795613266663
+    },
+    {
+      "feature": "slope_flat",
+      "importance": 0.009302490627622999
+    },
+    {
+      "feature": "thal_fixed defect",
+      "importance": 0.008739045729285001
+    },
+    {
+      "feature": "restecg_lv hypertrophy",
+      "importance": 0.007233707053866307
+    },
+    {
+      "feature": "restecg_st-t abnormality",
+      "importance": 0.006766058760390846
+    },
+    {
+      "feature": "fbs",
+      "importance": 0.006488533637885011
+    },
+    {
+      "feature": "sex_Male",
+      "importance": 0.006338155755763004
+    },
+    {
+      "feature": "cp_non-anginal",
+      "importance": 0.005344865727604546
+    },
+    {
+      "feature": "cp_typical angina",
+      "importance": 0.0029442943122859086
+    }
+  ],
+  "timestamp": "2025-05-08T17:13:13.520919"
+}
