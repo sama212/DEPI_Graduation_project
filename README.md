@@ -1,6 +1,6 @@
 # Healthcare Predictive Analytics: Heart Disease Risk Prediction
 
-![Heart Disease Prediction](https://placeholder.svg?height=200&width=600&text=Heart+Disease+Prediction)
+![Heart Disease Prediction](https://www.labellerr.com/blog/content/images/2024/02/image--2-.webp)
 
 ## Overview
 
